@@ -1,0 +1,7 @@
+openai
+customtkinter
+python-dotenv
+sounddevice
+soundfile
+numpy
+scipy

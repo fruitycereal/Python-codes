@@ -1,0 +1,24 @@
+2025-02-14 10:52:29,099 - src.gui.interview_gui - INFO - Starting application...
+2025-02-14 10:52:51,925 - __main__ - ERROR - Application crashed: 'APIClient' object has no attribute 'cleanup'
+Traceback (most recent call last):
+  File "C:\Users\Student\Desktop\MyPortfolioAI\src\main.py", line 43, in main
+    app.run()
+  File "C:\Users\Student\Desktop\MyPortfolioAI\src\gui\interview_gui.py", line 305, in run
+    self.simulator.cleanup()
+  File "C:\Users\Student\Desktop\MyPortfolioAI\src\core\simulator.py", line 54, in cleanup
+    self.api_client.cleanup()
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'APIClient' object has no attribute 'cleanup'
+2025-02-14 10:52:51,939 - __main__ - ERROR - Uncaught exception:
+Traceback (most recent call last):
+  File "C:\Users\Student\Desktop\MyPortfolioAI\src\main.py", line 49, in <module>
+    main()
+  File "C:\Users\Student\Desktop\MyPortfolioAI\src\main.py", line 43, in main
+    app.run()
+  File "C:\Users\Student\Desktop\MyPortfolioAI\src\gui\interview_gui.py", line 305, in run
+    self.simulator.cleanup()
+  File "C:\Users\Student\Desktop\MyPortfolioAI\src\core\simulator.py", line 54, in cleanup
+    self.api_client.cleanup()
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'APIClient' object has no attribute 'cleanup'
+2025-02-14 11:18:52,218 - src.gui.interview_gui - INFO - Starting application...
